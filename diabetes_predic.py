@@ -10,8 +10,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 # Load Dataset
-DATA_PATH = r"C:/Users/gkeer/OneDrive/Desktop/ML Projects/Diabetes Prediction/diabetes.csv"
-MODEL_PATH = r"C:/Users/gkeer/OneDrive/Desktop/ML Projects/Diabetes Prediction/diabetes_model.joblib"
+DATA_PATH = r"/filepath.csv"
+MODEL_PATH = r"/modelpath.joblib"
 
 # Load dataset
 diabetes_dset = pd.read_csv(DATA_PATH)
